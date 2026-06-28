@@ -1,16 +1,59 @@
-## Hi there 👋
+# Hi, I'm Dmitry Rudakov 👋
 
-<!--
-**AFLAiderLirk/AFLAiderLirk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Cybersecurity student at School 21.
 
-Here are some ideas to get you started:
+## About me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🔐 Studying Cybersecurity
+- 🌐 Interested in Network Security
+- 🖥 Learning Linux and System Administration
+- 📡 Working with Cisco, GNS3 and Wireshark
+- 💻 Learning Bash and Python
+- 🎯 Looking for an Information Security Internship
+
+---
+
+## Tech Stack
+
+### Networking
+
+- TCP/IP
+- DNS
+- DHCP
+- ICMP
+- ARP
+- SSH
+- Telnet
+
+### Operating Systems
+
+- Linux
+- Windows
+
+### Tools
+
+- GNS3
+- Wireshark
+- VMware
+- Git
+
+### Programming
+
+- Bash
+- Python
+- C
+- C++
+
+---
+
+## Current Goals
+
+- Finish School 21 projects
+- Learn Active Directory
+- Learn Docker
+- Build Home Cybersecurity Lab
+- Get my first Cybersecurity Internship
+
+---
+
+Thanks for visiting my profile!
