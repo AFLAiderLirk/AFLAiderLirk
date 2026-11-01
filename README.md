@@ -1,36 +1,54 @@
-# Hi, I'm Dmitry Rudakov
+# Dmitry Rudakov · AFLAiderLirk
 
-I'm a third-year Information Security student at Novgorod State University and a cybersecurity student at School 21. I build personal and educational projects in Linux administration, networking, secure communications and software development. I'm looking for a remote internship or trainee/junior opportunity in cybersecurity, with an interest in SOC, infrastructure security and AppSec.
+**C++ · Linux · Cybersecurity**
 
-## Projects
+Information Security student at Novgorod State University and cybersecurity student at School 21. I develop personal and educational software projects and build practical skills in Linux administration, networking, and secure communications.
 
-| Project | Focus | Status |
+I am seeking a remote internship or trainee/junior opportunity in cybersecurity or C++ development, with an interest in infrastructure security, SOC, and AppSec.
+
+[Public résumé](RESUME.md) · [Email](mailto:dima2006.ruda@gmail.com)
+
+## Focus
+
+- **C++ development:** robot simulation, state machines, sensor-driven navigation, and coverage planning in Webots.
+- **Linux and infrastructure:** users and permissions, processes and services, SSH, cron, web services, and basic firewall configuration.
+- **Cybersecurity:** network protocols, traffic analysis, TLS, VPNs, certificates, and isolated security labs.
+
+I also have additional C++ projects that are not yet published. They are separate from the public repositories listed below.
+
+## Selected work
+
+| Project | What it demonstrates | Current status |
 | --- | --- | --- |
-| [CbS10 — Data channel protection](https://github.com/AFLAiderLirk/networking-lab-notes#cbs10--data-channel-protection) | nginx HTTPS, OpenVPN/Easy-RSA, CryptoPro NGate, Windows client and GOST TLS | Four educational tasks completed and submitted to private GitLab; school assessment not confirmed |
-| [Webots Mower](https://github.com/AFLAiderLirk/webots-mower) | C++ robot simulation, GPS/IMU navigation, coverage planning and obstacle handling | Prototype; full mowing validation pending |
-| [AiderKits](https://github.com/AFLAiderLirk/aiderkits) | Java plugin for Minecraft Paper: configurable kits, inventory menus and cooldowns | Maven build verified; server testing pending |
-| [Networking lab notes](https://github.com/AFLAiderLirk/networking-lab-notes) | GNS3, network protocols and packet analysis | Independent summaries of learning work |
-| [Cryptography learning notes](https://github.com/AFLAiderLirk/cryptography-learning-notes) | Python/Bash experiments with cryptographic concepts and PKI | Independent summaries without keys or private school solutions |
+| [Webots Mower](https://github.com/AFLAiderLirk/webots-mower) | C++ controller with a mowing state machine, GPS/IMU navigation, proximity sensors, obstacle handling, and a coverage grid | Prototype; end-to-end coverage validation pending |
+| [Networking & secure communications labs](https://github.com/AFLAiderLirk/networking-lab-notes) | GNS3 networking practice; nginx HTTPS, TLS traffic analysis, OpenVPN/Easy-RSA, and CryptoPro NGate/CSP lab scenarios | Independent public summaries; CbS10 tasks submitted privately, assessment not confirmed |
+| [Cryptography learning notes](https://github.com/AFLAiderLirk/cryptography-learning-notes) | Learning topics covering hashes, XOR, symmetric encryption, RSA, Diffie–Hellman, and PKI | Summary of educational work; no production-security claims |
+| [AiderKits](https://github.com/AFLAiderLirk/aiderkits) | Java/Paper plugin with configurable kits, inventory menus, permissions, and cooldowns | Prototype; Maven build verified, runtime testing pending |
+| [AFLQuestBoard](https://github.com/AFLAiderLirk/AFLQuestBoard) | Java/Paper quest plugin with configurable goals and rewards, saved player progress, and an inventory GUI | Public source; features documented in the repository |
 
-Browse the repositories above for source code, setup instructions, and current limitations. My other Minecraft plugin, [AFLQuestBoard](https://github.com/AFLAiderLirk/AFLQuestBoard), is already available as a separate repository.
+Repository READMEs describe setup, implementation, and known limitations.
 
-## Practical skills and learning focus
+## Technical skills
 
-- **Linux administration:** Kali Linux, users/groups, permissions, sudo, processes and services, SSH, cron, Apache, nginx, Postfix, Logwatch and basic iptables. Educational Linux Basics work includes system-information scripts and Git/GitLab workflows.
-- **Networking:** OSI/TCP/IP, IPv4, TCP/UDP, ARP, ICMP, DNS, DHCP, NAT, VLAN, OSPF, HSRP and SMB; lab work with GNS3 and Cisco IOS.
-- **Traffic analysis:** Wireshark, tshark, tcpdump and Scapy; basic packet/protocol analysis, including TLS ClientHello and ServerHello.
-- **Secure communications lab practice:** HTTPS/TLS, OpenVPN, Easy-RSA, CA and certificates; CryptoPro NGate, CryptoPro CSP 5.0 and GOST TLS.
-- **Virtualization:** VirtualBox, Linux/Windows virtual machines and Host-Only networking.
-- **Programming and tools:** C++, Java, basic Python and Bash, Git/GitLab; Webots and the Minecraft Paper API.
-- **Security fundamentals:** network attacks, authentication, session management and web vulnerabilities; developing practical skills in AppSec, SOC and infrastructure security.
-- **English:** B2, including reading technical documentation.
+| Area | Tools and topics |
+| --- | --- |
+| Programming | C++, Java, basic Python and Bash |
+| Linux | Kali Linux, users/groups, permissions, sudo, processes, services, SSH, cron, Apache, nginx, Postfix, Logwatch, basic iptables |
+| Networking | TCP/IP, IPv4, TCP/UDP, ARP, ICMP, DNS, DHCP, NAT, VLAN, OSPF, HSRP, SMB; GNS3 and Cisco IOS labs |
+| Traffic analysis | Wireshark, tshark, tcpdump, Scapy; packet inspection and TLS handshake analysis |
+| Secure communications | HTTPS/TLS, OpenVPN, Easy-RSA, CA/certificates, CryptoPro NGate, CSP 5.0, GOST TLS |
+| Development environment | Git/GitLab, Maven, Webots, Paper API, VirtualBox, Linux/Windows VMs |
+| English | B2; technical documentation |
 
-## Current goals
+## Education and direction
 
-- Apply Linux, networking and security fundamentals during a supervised internship.
-- Continue studying Linux administration and network security.
-- Build an independent security lab and document results safely.
-- Validate the mower with reproducible scenarios and measured coverage.
-- Improve AiderKits reliability and add meaningful server tests.
+- **Novgorod State University:** Information Security student.
+- **School 21:** cybersecurity student.
+- Continuing to strengthen C++, Linux administration, network security, and reproducible project validation.
 
-This portfolio describes personal and educational work; it does not claim commercial experience. Private school assignments, credentials, keys, certificates, sensitive traffic and personal server data are excluded. Completed/submitted school work is distinguished from confirmed assessment results.
+My experience comes from personal projects and educational labs. This portfolio does not claim commercial employment or production deployments. Private school solutions, credentials, keys, sensitive traffic, and personal server data are not published.
+
+## Contact
+
+[dima2006.ruda@gmail.com](mailto:dima2006.ruda@gmail.com)
+
