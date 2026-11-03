@@ -17,7 +17,7 @@ Seeking a remote internship or trainee/junior opportunity in cybersecurity or C+
 - **Traffic analysis:** Wireshark, tshark, tcpdump, Scapy; PCAP investigation, TLS handshakes and detection of DNS tunneling indicators.
 - **Secure communications:** HTTPS/TLS, OpenVPN, Easy-RSA, certificate authorities and certificates; educational practice with CryptoPro NGate, CSP 5.0, and GOST TLS.
 - **Tools:** Git/GitLab, Maven, Webots, Minecraft Paper API, VirtualBox, Linux/Windows virtual machines, Host-Only networking.
-- **Security fundamentals:** MITRE ATT&CK, network attack indicators, IDS/IPS concepts, authentication and exposure assessment, FOFA/CVE research, MongoDB access checks and mitmproxy form logging.
+- **Security fundamentals:** MITRE ATT&CK, network attack indicators, IDS/IPS concepts, authentication and exposure assessment, FOFA/CVE research, MongoDB access checks, mitmproxy form logging, CIA triad, DMZ, security zoning and asset inventory.
 
 ## Personal and educational projects
 
@@ -29,6 +29,14 @@ Seeking a remote internship or trainee/junior opportunity in cybersecurity or C+
 - Added obstacle handling and a coverage grid with console statistics.
 - **Status:** prototype; end-to-end mowing performance and coverage accuracy are not yet verified.
 
+### CbS11 — Enterprise IT Landscape (School 21)
+[Public independent write-up](https://github.com/AFLAiderLirk/networking-lab-notes/blob/main/CbS11_ENTERPRISE_IT_LANDSCAPE.md)
+
+- Studied small-company LAN design, security segmentation, DMZ and topology diagrams in diagrams.net.
+- Worked with asset inventory concepts: subnets, operating systems, installed applications, local/domain accounts and Active Directory.
+- Explored defense-in-depth controls including endpoint protection, firewalls, VPN, least privilege and the CIA triad.
+- **Status:** completed and accepted by School 21 (author-confirmed); school files remain private.
+
 ### CbS12 — Network Attacks (School 21)
 [Public independent write-up](https://github.com/AFLAiderLirk/networking-lab-notes/blob/main/CbS12_NETWORK_ATTACKS.md)
 
@@ -37,7 +45,7 @@ Seeking a remote internship or trainee/junior opportunity in cybersecurity or C+
 - Developed and locally tested a mitmproxy addon logging HTTP form metadata without recording submitted values.
 - Investigated a PCAP, detected dnscat-style DNS tunneling and recovered command-session evidence.
 - Researched a potentially exposed nginx version using FOFA and a CVE advisory without exploiting any system.
-- **Status:** all five task files pushed to private School 21 GitLab (`develop`). The MongoDB scanner has not been positively tested against an intentionally unsecured server; school assessment is not confirmed. Public GitHub contains a project summary, not the school submissions.
+- **Status:** all five task files pushed to private School 21 GitLab (`develop`). The MongoDB scanner has not been positively tested against an intentionally unsecured server; School 21 assessment accepted (author-confirmed). Public GitHub contains a project summary, not the school submissions.
 
 ### Secure communications and networking labs
 [Public summary](https://github.com/AFLAiderLirk/networking-lab-notes)
