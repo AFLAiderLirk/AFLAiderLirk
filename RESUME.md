@@ -14,10 +14,10 @@ Seeking a remote internship or trainee/junior opportunity in cybersecurity or C+
 - **Programming:** C++, Java; basic Python and Bash.
 - **Linux administration:** users/groups, permissions, sudo, processes and services, SSH, cron, Apache, nginx, Postfix, Logwatch, basic iptables; Kali Linux.
 - **Networking:** OSI/TCP/IP, IPv4, TCP/UDP, ARP, ICMP, DNS, DHCP, NAT, VLAN, OSPF, HSRP, SMB; GNS3 and Cisco IOS lab practice.
-- **Traffic analysis:** Wireshark, tshark, tcpdump, Scapy; packet/protocol inspection, including TLS ClientHello and ServerHello.
+- **Traffic analysis:** Wireshark, tshark, tcpdump, Scapy; PCAP investigation, TLS handshakes and detection of DNS tunneling indicators.
 - **Secure communications:** HTTPS/TLS, OpenVPN, Easy-RSA, certificate authorities and certificates; educational practice with CryptoPro NGate, CSP 5.0, and GOST TLS.
 - **Tools:** Git/GitLab, Maven, Webots, Minecraft Paper API, VirtualBox, Linux/Windows virtual machines, Host-Only networking.
-- **Security fundamentals:** authentication, session management, network attacks, and web vulnerabilities.
+- **Security fundamentals:** MITRE ATT&CK, network attack indicators, IDS/IPS concepts, authentication and exposure assessment, FOFA/CVE research, MongoDB access checks and mitmproxy form logging.
 
 ## Personal and educational projects
 
@@ -28,6 +28,16 @@ Seeking a remote internship or trainee/junior opportunity in cybersecurity or C+
 - Implemented a mowing state machine using GPS, IMU, wheel encoders, and proximity sensors.
 - Added obstacle handling and a coverage grid with console statistics.
 - **Status:** prototype; end-to-end mowing performance and coverage accuracy are not yet verified.
+
+### CbS12 — Network Attacks (School 21)
+[Public independent write-up](https://github.com/AFLAiderLirk/networking-lab-notes/blob/main/CbS12_NETWORK_ATTACKS.md)
+
+- Mapped eight simulated security incidents to MITRE ATT&CK tactics and techniques.
+- Built a Python/PyMongo scanner for identifying MongoDB instances where database listing is available without authentication on permitted lab networks.
+- Developed and locally tested a mitmproxy addon logging HTTP form metadata without recording submitted values.
+- Investigated a PCAP, detected dnscat-style DNS tunneling and recovered command-session evidence.
+- Researched a potentially exposed nginx version using FOFA and a CVE advisory without exploiting any system.
+- **Status:** all five task files pushed to private School 21 GitLab (`develop`). The MongoDB scanner has not been positively tested against an intentionally unsecured server; school assessment is not confirmed. Public GitHub contains a project summary, not the school submissions.
 
 ### Secure communications and networking labs
 [Public summary](https://github.com/AFLAiderLirk/networking-lab-notes)
