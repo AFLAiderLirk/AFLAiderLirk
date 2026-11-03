@@ -21,7 +21,8 @@ I also have additional C++ projects that are not yet published. They are separat
 | Project | What it demonstrates | Current status |
 | --- | --- | --- |
 | [Webots Mower](https://github.com/AFLAiderLirk/webots-mower) | C++ controller with a mowing state machine, GPS/IMU navigation, proximity sensors, obstacle handling, and a coverage grid | Prototype; end-to-end coverage validation pending |
-| [CbS12 — Network Attacks](https://github.com/AFLAiderLirk/networking-lab-notes/blob/main/CbS12_NETWORK_ATTACKS.md) | MITRE ATT&CK mapping, Python/PyMongo checks, mitmproxy form logging, DNS tunneling investigation, FOFA/CVE reconnaissance | Five tasks pushed to private GitLab; grading pending; public write-up only |
+| [CbS11 — Enterprise IT Landscape](https://github.com/AFLAiderLirk/networking-lab-notes/blob/main/CbS11_ENTERPRISE_IT_LANDSCAPE.md) | LAN topology, security zones/DMZ, IT asset inventory, defense in depth, VPN and endpoint/network protection | Accepted by School 21 (author-confirmed); public write-up only |
+| [CbS12 — Network Attacks](https://github.com/AFLAiderLirk/networking-lab-notes/blob/main/CbS12_NETWORK_ATTACKS.md) | MITRE ATT&CK mapping, Python/PyMongo checks, mitmproxy form logging, DNS tunneling investigation, FOFA/CVE reconnaissance | Accepted by School 21 (author-confirmed); public write-up only |
 | [CbS10 — Secure communications](https://github.com/AFLAiderLirk/networking-lab-notes#cbs10--data-channel-protection) | nginx HTTPS/TLS, OpenVPN/Easy-RSA, certificates, and CryptoPro NGate/CSP lab scenarios | Private school submissions; assessment not confirmed |
 | [Cryptography learning notes](https://github.com/AFLAiderLirk/cryptography-learning-notes) | Learning topics covering hashes, XOR, symmetric encryption, RSA, Diffie–Hellman, and PKI | Summary of educational work; no production-security claims |
 | [AiderKits](https://github.com/AFLAiderLirk/aiderkits) | Java/Paper plugin with configurable kits, inventory menus, permissions, and cooldowns | Prototype; Maven build verified, runtime testing pending |
@@ -38,7 +39,7 @@ Repository READMEs describe setup, implementation, and known limitations.
 | Networking | TCP/IP, IPv4, TCP/UDP, ARP, ICMP, DNS, DHCP, NAT, VLAN, OSPF, HSRP, SMB; GNS3 and Cisco IOS labs |
 | Traffic analysis | Wireshark, tshark, tcpdump, Scapy; PCAP forensics, TLS handshakes, DNS tunneling indicators |
 | Secure communications | HTTPS/TLS, OpenVPN, Easy-RSA, CA/certificates, CryptoPro NGate, CSP 5.0, GOST TLS |
-| Security exercises | MITRE ATT&CK, IDS/IPS concepts, Python/PyMongo, mitmproxy, FOFA, CVE exposure research |
+| Security exercises | MITRE ATT&CK, IDS/IPS concepts, Python/PyMongo, mitmproxy, FOFA, CVE exposure research, IT asset inventory, DMZ/security segmentation |
 | Development environment | Git/GitLab, Maven, Webots, Paper API, VirtualBox, Linux/Windows VMs |
 | English | B2; technical documentation |
 
