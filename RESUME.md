@@ -1,93 +1,80 @@
 # Dmitry Rudakov
-## C++ · Linux · Cybersecurity
+## Cybersecurity / Linux / Network Security Intern · Junior C++ Developer
 
-**Email:** [dima2006.ruda@gmail.com](mailto:dima2006.ruda@gmail.com)
+**Contact:** [dima2006.ruda@gmail.com](mailto:dima2006.ruda@gmail.com) · [GitHub](https://github.com/AFLAiderLirk)  
+**Target:** remote internship or entry-level role in information security, infrastructure / network security, or C++ development.
 
 ## Profile
 
-Information Security student at Novgorod State University and cybersecurity student at School 21. Practical experience through personal software projects and educational labs in C++, Linux administration, networking, and secure communications.
+Information Security student at **Novgorod State University** and cybersecurity student at **School 21**. I have hands-on educational experience with Linux services, network protocols, PCAP investigations, threat detection, firewall policies, and VPN configuration. I write small security-related tools in Python and work on personal C++ and Java projects.
 
-Seeking a remote internship or trainee/junior opportunity in cybersecurity or C++ development. Areas of interest include infrastructure security, SOC, and application security.
+**Several completed School 21 cybersecurity projects have been accepted** (author-confirmed). The original submissions and assessed repositories are **private on GitLab**; my GitHub presents **independent descriptions of work and skills**, not school source material or solutions.
 
 ## Technical skills
 
-- **Programming:** C++, Java; basic Python and Bash.
-- **Linux administration:** users/groups, permissions, sudo, processes and services, SSH, cron, Apache, nginx, Postfix, Logwatch, basic iptables; Kali Linux.
-- **Networking:** OSI/TCP/IP, IPv4, TCP/UDP, ARP, ICMP, DNS, DHCP, NAT, VLAN, OSPF, HSRP, SMB; GNS3 and Cisco IOS lab practice.
-- **Traffic analysis:** Wireshark, tshark, tcpdump, Scapy; PCAP investigation, TLS handshakes and detection of DNS tunneling indicators.
-- **Secure communications:** HTTPS/TLS, OpenVPN, Easy-RSA, certificate authorities and certificates; educational practice with CryptoPro NGate, CSP 5.0, and GOST TLS.
-- **Tools:** Git/GitLab, Maven, Webots, Minecraft Paper API, VirtualBox, Linux/Windows virtual machines, Host-Only networking.
-- **Security fundamentals:** MITRE ATT&CK, network attack indicators, IDS/IPS concepts, authentication and exposure assessment, FOFA/CVE research, MongoDB access checks, mitmproxy form logging, CIA triad, DMZ, security zoning and asset inventory.
+- **Programming:** C++, Java; Python and Bash for educational scripts, analysis, and automation.
+- **Linux / systems:** Kali Linux, users and permissions, processes and services, SSH, cron, Apache, nginx, Postfix, Logwatch, basic iptables.
+- **Networking:** OSI/TCP/IP, IPv4, TCP/UDP, ARP, ICMP, DNS, DHCP, NAT, VLAN, OSPF, HSRP; GNS3 and Cisco IOS labs.
+- **Traffic analysis:** Wireshark, tshark, tcpdump, Scapy, PCAP investigation, TLS handshake and DNS-tunneling indicators.
+- **Threat detection:** YARA, Suricata, MITRE ATT&CK, IDS/IPS fundamentals, version-based exposure research (FOFA/CVE), PyMongo and mitmproxy.
+- **Secure networks:** pfSense, IPsec/IKEv2 site-to-site VPN, OpenVPN, HTTPS/TLS, PKI, Easy-RSA and certificates, firewall policies and time-based access rules.
+- **Other tools:** Git/GitLab/GitHub, VirtualBox, Maven, Webots, Minecraft Paper API.
 
-## Personal and educational projects
+## School 21 · practical cybersecurity projects
 
-### Webots Mower — C++
-[Repository](https://github.com/AFLAiderLirk/webots-mower)
+[**Public portfolio summary**](https://github.com/AFLAiderLirk/networking-lab-notes) — original assessed artifacts remain in private GitLab repositories.
 
-- Developed a robot simulation controller with manual control and automatic navigation modes.
-- Implemented a mowing state machine using GPS, IMU, wheel encoders, and proximity sensors.
-- Added obstacle handling and a coverage grid with console statistics.
-- **Status:** prototype; end-to-end mowing performance and coverage accuracy are not yet verified.
+### Infrastructure and secure network design
 
-### CbS11 — Enterprise IT Landscape (School 21)
-[Public independent write-up](https://github.com/AFLAiderLirk/networking-lab-notes/blob/main/CbS11_ENTERPRISE_IT_LANDSCAPE.md)
+- Designed segmented small-business LAN and DMZ lab architecture, asset inventories, access controls and layered security measures.
+- Deployed **two pfSense CE 2.6.0 VMs** with separate LAN subnets and an isolated WAN connection.
+- Configured **IPsec/IKEv2 site-to-site VPN** and verified established IKE SA and installed Child SA.
+- Prepared firewall rules restricting RDP (TCP 3389), SSH (TCP 22), and scheduled SMTP (TCP 25) access; documented equivalent iptables rules.
 
-- Studied small-company LAN design, security segmentation, DMZ and topology diagrams in diagrams.net.
-- Worked with asset inventory concepts: subnets, operating systems, installed applications, local/domain accounts and Active Directory.
-- Explored defense-in-depth controls including endpoint protection, firewalls, VPN, least privilege and the CIA triad.
-- **Status:** completed and accepted by School 21 (author-confirmed); school files remain private.
+### Attack investigation and security configuration checks
 
-### CbS12 — Network Attacks (School 21)
-[Public independent write-up](https://github.com/AFLAiderLirk/networking-lab-notes/blob/main/CbS12_NETWORK_ATTACKS.md)
+- Mapped simulated incidents to **MITRE ATT&CK** tactics and techniques.
+- Built a **Python/PyMongo** lab scanner checking for MongoDB database enumeration without authentication on authorized networks; positive detection on an intentionally exposed database was not separately validated.
+- Built and locally tested a **mitmproxy** addon that records HTTP form-submission metadata without storing form values or credentials.
+- Analyzed PCAP data indicating DNS tunneling and reconstructed session evidence; used FOFA/CVE references for non-intrusive exposure research.
 
-- Mapped eight simulated security incidents to MITRE ATT&CK tactics and techniques.
-- Built a Python/PyMongo scanner for identifying MongoDB instances where database listing is available without authentication on permitted lab networks.
-- Developed and locally tested a mitmproxy addon logging HTTP form metadata without recording submitted values.
-- Investigated a PCAP, detected dnscat-style DNS tunneling and recovered command-session evidence.
-- Researched a potentially exposed nginx version using FOFA and a CVE advisory without exploiting any system.
-- **Status:** all five task files pushed to private School 21 GitLab (`develop`). The MongoDB scanner has not been positively tested against an intentionally unsecured server; School 21 assessment accepted (author-confirmed). Public GitHub contains a project summary, not the school submissions.
+### Detection engineering and behavioral analysis
+
+- Developed **three YARA** rules using text and hexadecimal indicators, with file-size matching, and checked all nine combinations across three supplied samples.
+- Created **four Suricata** detection signatures for suspicious TCP/C2-like, HTTP, ICMP, and DNS patterns; validated alerts against a provided PCAP.
+- Implemented a **Python/pynput/statistics** educational program comparing inter-keystroke intervals between repeated manual text entries.
 
 ### Secure communications and networking labs
-[Public summary](https://github.com/AFLAiderLirk/networking-lab-notes)
 
-- Practiced Linux service configuration, network addressing, and virtual machine networking.
-- Configured nginx HTTPS and inspected TLS handshakes using Wireshark/tshark.
-- Worked with OpenVPN, Easy-RSA, certificates, TUN interfaces, and tcpdump.
-- Prepared CryptoPro NGate and Windows/CSP 5.0 lab scenarios with GOST TLS.
-- **Status:** four CbS10 tasks completed and submitted to private GitLab; school assessment is not confirmed. The public repository contains independent summaries.
+- Configured nginx **HTTPS/TLS** and investigated handshake captures.
+- Practiced **OpenVPN**, Easy-RSA, CA/certificates and TUN interface troubleshooting.
+- Worked with isolated **CryptoPro NGate / CSP / GOST TLS** scenarios.
+- Used **GNS3/Cisco IOS** for routing, switching, VLAN and protocol simulation.
 
-### AiderKits — Java / Paper
-[Repository](https://github.com/AFLAiderLirk/aiderkits)
+These are educational exercises and **do not imply production experience**. School 21 acceptance applies to the completed assessed project areas reported above; no acceptance is claimed for every separate training scenario.
 
-- Implemented configurable item kits, inventory menus, command permissions, and in-memory cooldowns.
-- **Status:** prototype; Maven build verified, server runtime testing pending.
+## Personal development projects
 
-### AFLQuestBoard — Java / Paper
-[Repository](https://github.com/AFLAiderLirk/AFLQuestBoard)
+**[Webots Mower](https://github.com/AFLAiderLirk/webots-mower) · C++**  
+Prototype robotic lawn-mower controller with GPS/IMU, sensor-driven obstacle avoidance, navigation state machine and coverage grid. End-to-end coverage accuracy is not yet validated.
 
-- Personal quest plugin with configurable objectives and rewards, persistent player progress, and an inventory menu.
-- **Status:** public source; runtime validation is not claimed in this résumé.
+**[AiderKits](https://github.com/AFLAiderLirk/aiderkits) · Java / Minecraft Paper**  
+Configurable kits, inventory menus, permissions and cooldowns. Maven build verified; further in-server validation pending.
 
-### Cryptography learning notes
-[Public summary](https://github.com/AFLAiderLirk/cryptography-learning-notes)
+**[AFLQuestBoard](https://github.com/AFLAiderLirk/AFLQuestBoard) · Java / Minecraft Paper**  
+Quest objectives and rewards, player progress persistence and inventory GUI.
 
-- Studied hashes, XOR, symmetric encryption, RSA, Diffie–Hellman, and PKI through Python/Bash learning materials.
-- **Status:** educational overview, without claims of production-ready cryptographic implementations.
+**[Cryptography learning notes](https://github.com/AFLAiderLirk/cryptography-learning-notes)**  
+Educational notes on hashing, XOR, symmetric encryption, RSA, Diffie–Hellman and PKI.
 
-### Additional C++ projects
+Additional personal C++ projects exist but are not currently published.
 
-Additional personal C++ projects exist but are not yet published. They are not represented as publicly reviewable work in this résumé.
+## Education and languages
 
-## Education
+- **Novgorod State University** — Information Security student.
+- **School 21** — practical cybersecurity training.
+- **English:** B2 (self-reported), technical documentation.
 
-- **Novgorod State University** — Information Security, student.
-- **School 21** — cybersecurity studies.
+## Experience scope and publication policy
 
-## Languages
-
-- **English:** B2; reading technical documentation.
-
-## Experience scope
-
-The work above consists of personal projects and educational practice. No commercial employment, production deployment experience, certifications, or independently confirmed assessment results are claimed.
-
+Personal projects and controlled educational labs only. No commercial cybersecurity employment, production deployments or independently verifiable certifications are claimed. Private coursework, original tasks, graded code, captures, challenge flags, credentials, certificates and VPN secrets are not published.
