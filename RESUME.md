@@ -51,6 +51,11 @@ Information Security student at **Novgorod State University** and cybersecurity 
 - Worked with isolated **CryptoPro NGate / CSP / GOST TLS** scenarios.
 - Used **GNS3/Cisco IOS** for routing, switching, VLAN and protocol simulation.
 
+### School 21 projects accepted in 2026
+
+- **CbS15 — Information Security Legislation.** Analyzed practical cases involving Russian critical information infrastructure regulations, mapped scenarios to legal requirements, reviewed Russian and international security standards, and determined information-system protection levels and classes. **Accepted after review.**
+- **CbS16 — Information Security Project Lifecycle.** Defined the security-assessment scope of a data-center/network topology, prepared a website threat model and user documentation, and documented AI-assisted drafting, review, and corrections. **Accepted after review.**
+
 These are educational exercises and **do not imply production experience**. School 21 acceptance applies to the completed assessed project areas reported above; no acceptance is claimed for every separate training scenario.
 
 ## Personal development projects
