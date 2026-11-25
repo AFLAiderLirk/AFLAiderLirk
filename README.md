@@ -36,6 +36,13 @@ Practical topics include:
 - **Protected networks:** two pfSense virtual firewalls, established IPsec/IKEv2 site-to-site tunnel, IPsec/LAN policy, blocked RDP/SSH and time-limited SMTP; equivalent iptables rule design.
 - **Secure communications and networking:** nginx/TLS, OpenVPN/Easy-RSA, certificates, CryptoPro educational labs, GNS3/Cisco network simulation.
 
+### Recently accepted School 21 projects (2026)
+
+- **CbS15 · Information Security Legislation:** analyzed case-based requirements of Russian critical information infrastructure legislation, mapped scenarios to applicable requirements, compared security standards, and assessed protection levels and information-system classes. **Accepted after review.**
+- **CbS16 · Project Lifecycle:** defined the scope of an information-security assessment for a data-center network, prepared a website threat model and end-user documentation, and recorded AI-assisted drafting and corrections. **Accepted after review.**
+
+Original assignments and submitted files remain in private School 21 GitLab repositories; these are high-level descriptions only.
+
 ### Personal development projects
 
 | Project | What I built / explored | Scope |
